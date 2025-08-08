@@ -80,7 +80,7 @@ jobs:
           GOOGLE_APPLICATION_CREDENTIALS: ${{ steps.auth.outputs.credentials_file_path }}
           GOOGLE_CLOUD_PROJECT: ${{ env.PROJECT_ID }}
           GCLOUD_PROJECT: ${{ env.PROJECT_ID }}
-          PROJECT_ID: agent-web-ui
+          # PROJECT_ID: agent-web-ui
         working-directory: ./
         run: |  
           echo "--- Environment for Firebase Deploy ---"  
